@@ -1,0 +1,68 @@
+﻿body {
+    font-family: 'Segoe UI';
+    font-size: 14px;
+}
+
+
+textarea
+{
+    resize: vertical;
+    font-family: Tahoma;
+    font-size: 14px;
+}
+#text_field
+{
+    border: 1px solid black;
+    width: 400px;
+    min-height: 6px;
+    border-radius: 4px 4px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 4px 4px 4px 4px;
+}
+
+#dialog
+{
+    background-color: #b777ff;
+    border: 1px solid #8528ee;
+    width: 400px;
+    min-height: 50px;
+    border-radius: 4px 4px;
+    position: absolute;
+    box-shadow: rgba(0,0,0,0.60) 2px 2px 8px;
+    padding: 16px 20px 16px 16px;
+    left: 400px;
+    top: 300px;
+}
+
+#dialog_text
+{
+    width: 100%;
+    vertical-align: top;
+    line-height: 40px;
+    margin-left: 30px;
+}
+
+button
+{
+    
+    height: 30px;
+    background-color: #efefef;
+    border: 1px solid #8528ee;
+    cursor: pointer;
+}
+
+button:not(#btnShowDialog)
+{
+    width: 49.5%;
+}
+
+    button:hover
+    {
+        background-color: #a08eff;
+    }
+
+    button:active
+    {
+        background-color: #6346fb;
+    }
