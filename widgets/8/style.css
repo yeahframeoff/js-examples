@@ -1,0 +1,93 @@
+﻿body {
+}
+
+.li, #chosenType{
+    list-style-type: none; /* Убираем маркеры */
+    padding-left: 2px;
+    padding-top: 2px;
+    
+    border: 1px solid #bdbdbd;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 4px;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 34px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#chosenType
+{
+    width: 238px;
+    height: 37px;
+    background-color: #dbdbdb;
+}
+
+.li
+{
+    width: 242px;
+    height: 41px;
+    cursor: pointer;
+    background-color: #e9e9e9;
+}
+
+    .li:hover
+    {
+        
+        background-color: #ceff88;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+    }
+
+    .li:active
+    {
+        background-color: #96ff00;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 1);
+    }
+
+#widget
+{
+    margin-left: 140px;
+    margin-top: 60px;
+}
+
+#chosenType
+{
+    float: left;
+}
+
+#chooseBtn
+{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 41px;
+    float: left;
+    margin-left: 8px;
+    background-color: #dbdbdb;
+    border: 1px solid #bdbdbd;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 4px;
+    cursor: pointer;
+}
+
+    #chooseBtn:hover:not(:disabled)
+    {
+        background-color: #cdd7f1;
+    }
+
+    #chooseBtn:active:not(:disabled)
+    {
+        background-color: #9fb5ef;
+    }
+
+    #chooseBtn:disabled
+    {
+        color: #bbbbbb;
+        cursor: auto;
+    }
+
+#list
+{
+    position: absolute;
+    opacity: 0.0;
+    top: 0px;
+    left: 0px;
+}
