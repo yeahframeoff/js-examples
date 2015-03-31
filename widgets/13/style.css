@@ -1,0 +1,84 @@
+#main
+{
+    width: 600px;
+    margin: 0 auto;
+}
+
+#tabs-block {
+	width: 100%;
+}
+
+.active, .nonactive
+{
+    float: left;
+    border: 1px solid black;
+    border-radius: 3px 3px;
+    width: 33%;
+    height: 22px;
+    cursor: pointer;
+    overflow: hidden;
+    font-family: 'Segoe UI';
+    font-size: 14px;
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: inset rgba(0, 0, 0, 0.45) 0px 0px 10px;
+}
+
+.nonactive
+{
+    background-color: #efefef;
+}
+
+.nonactive:hover
+{
+    background-color: #c699ff;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(240, 240, 240, 0.8);
+}
+
+.nonactive:active
+{
+    background-color: #9600b9;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(240, 240, 240, 0.8);
+}
+
+.active
+{
+    background-color: #ce00ff;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(240, 240, 240, 0.8);
+}
+
+.active:hover
+{
+    background-color: #b400de;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(240, 240, 240, 0.8);
+}
+
+.active:active
+{
+    background-color: #9600b9;
+    color: #ffffff;
+    text-shadow: 0px 0px 5px rgba(240, 240, 240, 0.8);
+}
+
+.content pre
+{
+    font-family: Tahoma;
+}
+
+.content
+{
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-size: 18px;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    padding-left:  10px;
+    padding-right: 10px;
+    background-color: #dadfff;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0px 0px 10px;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
