@@ -1,0 +1,48 @@
+﻿body {
+}
+
+#bg
+{
+    margin: 0 auto;
+    background-image: url('volume.jpg');
+    width: 945px;
+    height: 560px;
+    border: 3px solid #0094ff;
+    border-radius: 5px 5px;
+}
+
+#pointer
+{
+    position: relative;
+    left: 365px;
+    top: 195px;
+    height: 214px;
+    width: 214px;
+    cursor:pointer;
+    background-image: url('pointer.png');
+    background-color:transparent;
+    border: 0px;
+    transform-origin: 107px 107px;
+    -webkit-transform-origin: 107px 107px;
+}
+
+#value
+{
+    position: relative;
+    margin: 0 auto;
+    top: 280px;
+    border: 3px solid #808080;
+    border-radius: 5px 5px;
+    width: 120px;
+    background-color: #0094ff;
+    box-shadow: rgba(0, 0, 0, 1) 0px 0px 10px inset;
+    
+    font-family: Consolas;
+    font-style:italic;
+    font-size: 32px;
+    text-align: right;
+    vertical-align: middle;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 5px 5px 5px 5px;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.8);
+}
